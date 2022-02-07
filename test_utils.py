@@ -12,16 +12,16 @@ def test_get_cropped_img():   # this unit test requires opencv to be installed, 
     assert(h == 500)
 
 
-# def test_multiply_by_three():
-#     assert(utils.multiply_by_three(5) == 15)
-#     assert(utils.multiply_by_three(10) == 30)
-#
-# def test_add5():
-#     assert(utils.add5(10) == 15)
-#
-#
-# def test_add_should_fail():
-#     assert(utils.add5(5) == 15)
+def test_multiply_by_three():
+    assert(utils.multiply_by_three(5) == 15)
+    assert(utils.multiply_by_three(10) == 30)
+
+def test_add5():
+    assert(utils.add5(10) == 15)
+
+
+def test_add_should_fail():
+    assert(utils.add5(5) == 15)
 #
 # def test_add_should_also_fail():            #if this functions is uncommented, this unit test will also be ran.
 #     assert(utils.add5(5) == 25)
