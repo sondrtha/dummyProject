@@ -11,5 +11,8 @@ def add5(x):
 def sub10(x):
     return x - 10
 
+def sub20(x):
+	return x - 20
+
 
 #here is a comment
