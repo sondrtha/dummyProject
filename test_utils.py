@@ -29,6 +29,8 @@ def test_add_should_also_fail():            #if this functions is uncommented, t
 def test_sub_10():
 	assert(utils.sub10(20) == 10)
 
+def test_sub_10fail():
+	assert(utils.sub10(35) == 25)
 
 # a random comment, change and save this line (or make any other change) while running the main file
 # so that the CI will run unit tests.   fdsasdummychangefds
