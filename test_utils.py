@@ -29,7 +29,7 @@ def test_add_should_also_fail():            #if this functions is uncommented, t
 def test_sub_10():
 	assert(utils.sub10(20) == 10)
 
-def test_sub_10fail():
+def test_sub_10_should_fail():
 	assert(utils.sub10(35) == 30)
 
 
